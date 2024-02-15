@@ -30,84 +30,85 @@ body{
     justify-content: center;
     flex-direction: column;
 
-    .valor{
-        color: #f3ecb3;
-        font-size: 15px;
-        display: flex;
-        justify-content: flex-end;
-        width: 250px;
-    }
+}
+
+.valor{
+    color: #f3ecb3;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    width: 250px;
 }
 
 label{
     margin: 15px;
     display: flex;
     justify-content: center;
+}
 
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-    }
+label input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 
-    input{
-        -moz-appearance: textfield;
-        width: 250px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #f3ecb3;
-        color: #302C33;
-        font-size: 25px;
-        outline: none;
-        padding: 10px;
-    }
+label input{
+    -moz-appearance: textfield;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #f3ecb3;
+    color: #302C33;
+    font-size: 25px;
+    outline: none;
+    padding: 10px;
+}
 
-    input:hover{
-        background-color: #302C33;
-        color: #f3ecb3;
-    }
+label input:hover{
+    background-color: #302C33;
+    color: #f3ecb3;
 }
 
 .btns{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    button{
-        width: 60px;
-        height: 60px;
-        margin: 5px;
-        padding: 1px;
-        border-radius: 10px;
-        background-color: #725F7F;
-        box-shadow: #f3ecb3 0px 1px 3px;
-        color: #f3ecb3;
-        font-size: 25px;
-    }
+}
 
-    button:hover{
-        background-color: #564661;
-    }
+.btns button{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: #725F7F;
+    box-shadow: #f3ecb3 0px 1px 3px;
+    color: #f3ecb3;
+    font-size: 25px;
+}
 
-    #calcular{
-        background-color: #565656;
-    }
+.btns button:hover{
+    background-color: #564661;
+}
 
-    #calcular:hover{
-        background-color: #302C33;
-    }
+.btns #calcular{
+    background-color: #565656;
+}
 
-    .sinal{
-        background-color: #565656;
-    }
+.btns #calcular:hover{
+    background-color: #302C33;
+}
 
-    .sinal:hover{
-        background-color: #302C33;
-    }
+.btns .sinal{
+    background-color: #565656;
+}
 
-    #limpar{
-        background-color: #565656;
-    }
+.btns .sinal:hover{
+    background-color: #302C33;
+}
 
-    #limpar:hover{
-        background-color: #302C33;
-    }
+.btns #limpar{
+    background-color: #565656;
+}
+
+.btns #limpar:hover{
+    background-color: #302C33;
 }
