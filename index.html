@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="calculadora">
+            <span class="valor" id="valor">-</span>
+            <label for="resultado">
+                <input type="number" value="" id="resultado" placeholder="0">
+            </label>
+            <div class="btns" id="btn">
+                    <button onclick="operador('+')" class="sinal">+</button>
+                    <button onclick="operador('-')" class="sinal">-</button>
+                    <button onclick="operador('*')" class="sinal">x</button>
+                    <button onclick="operador('/')" class="sinal">/</button>
+
+                    <button onclick="numero(1)">1</button>
+                    <button onclick="numero(2)">2</button>
+                    <button onclick="numero(3)">3</button>
+
+                    <button onclick="limpar()" id="limpar">C</button>
+
+                    <button onclick="numero(4)">4</button>
+                    <button onclick="numero(5)">5</button>
+                    <button onclick="numero(6)">6</button>
+
+                    <button onclick="calcular()" id="calcular">=</button>
+
+                    <button onclick="numero(7)">7</button>
+                    <button onclick="numero(8)">8</button>
+                    <button onclick="numero(9)">9</button>
+                    <button onclick="numero(0)">0</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

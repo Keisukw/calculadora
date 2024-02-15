@@ -1,0 +1,113 @@
+*{
+    border: 0;
+    box-sizing: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: #302C33;
+}
+
+.content{
+    background-color: #302C33;
+    padding: 71px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    background-color: #4f4953;
+    padding: 10px;
+    height: 480px;
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: #f3e579 0px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .valor{
+        color: #f3ecb3;
+        font-size: 15px;
+        display: flex;
+        justify-content: flex-end;
+        width: 250px;
+    }
+}
+
+label{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    input{
+        -moz-appearance: textfield;
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #f3ecb3;
+        color: #302C33;
+        font-size: 25px;
+        outline: none;
+        padding: 10px;
+    }
+
+    input:hover{
+        background-color: #302C33;
+        color: #f3ecb3;
+    }
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    button{
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        padding: 1px;
+        border-radius: 10px;
+        background-color: #725F7F;
+        box-shadow: #f3ecb3 0px 1px 3px;
+        color: #f3ecb3;
+        font-size: 25px;
+    }
+
+    button:hover{
+        background-color: #564661;
+    }
+
+    #calcular{
+        background-color: #565656;
+    }
+
+    #calcular:hover{
+        background-color: #302C33;
+    }
+
+    .sinal{
+        background-color: #565656;
+    }
+
+    .sinal:hover{
+        background-color: #302C33;
+    }
+
+    #limpar{
+        background-color: #565656;
+    }
+
+    #limpar:hover{
+        background-color: #302C33;
+    }
+}
