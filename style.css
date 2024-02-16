@@ -2,11 +2,11 @@
     border: 0;
     box-sizing: 0;
     margin: 0;
-    overflow: hidden;
 }
 
 body{
     background-color: #302C33;
+    overflow: hidden;
 }
 
 .content{
@@ -121,6 +121,10 @@ label input:hover{
 }
 
 @media only screen and (max-width: 480px){
+    body{
+        overflow: visible;
+    }
+
     .calculadora{
         height: 600px;
     }    
